@@ -7,6 +7,7 @@ export default class MyDocument extends Document {
                 <Head>
                     {/* PWA primary color */}
                     <meta name="theme-color"  />
+                    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"/>
                     <link
                         rel="stylesheet"
                         href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
@@ -27,7 +28,7 @@ export default class MyDocument extends Document {
                     />
                     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet"/>
                 </Head>
-                <body className="dark:bg-gray-800 prose dark:prose-dark">
+                <body className="dark:bg-gray-900 prose dark:prose-dark">
                 <div id="overlays" />
                 <Main />
                 <NextScript />
