@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 html,
 body {
   padding: 0;
@@ -13,4 +18,8 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.btn {
+  @apply font-bold py-2 px-4 rounded bg-blue-500 text-black;
 }
