@@ -9,25 +9,6 @@ export default class MyDocument extends Document {
                     <meta name="theme-color"  />
                     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"/>
                     <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/dmhendricks/bootstrap-grid-css@4.1.3/dist/css/bootstrap-grid.min.css" />
-                    <link
-                        rel="stylesheet"
-                        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-                    />
-                    <link rel="preconnect" href="https://fonts.googleapis.com" />
-                    <link rel="preconnect" href="https://fonts.gstatic.com" />
-                    <link
-                        href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
-                        rel="stylesheet"
-                    />
-                    <link
-                        href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-                        rel="stylesheet"
-                    />
-                    <link
-                        href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-                        rel="stylesheet"
-                    />
-                    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet"/>
                 </Head>
                 <body className="dark:bg-gray-900 prose dark:prose-dark">
                 <div id="overlays" />

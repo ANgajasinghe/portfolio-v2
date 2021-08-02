@@ -1,5 +1,6 @@
 import {useRouter} from "next/router";
 import {NavButton} from "../components/buttons";
+import {Tooltip} from "@material-ui/core";
 
 
 export default function SideNav() {
@@ -13,10 +14,13 @@ export default function SideNav() {
             <div className="flex justify-center flex-wrap content-center cursor-pointer"  style={{height: '100%'}}>
                 <div>
 
-                      <NavButton
-                          iconName="las la-user"
-                          href={'/'}
-                          label="My Profile"/>
+
+                        <NavButton
+                            iconName="las la-user"
+                            href={'/'}
+                            label="My Profile"/>
+
+
 
 
 

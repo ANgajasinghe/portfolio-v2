@@ -7,7 +7,8 @@ import LandingAnimation from "../components/landing-animation";
 export default function Home() {
     return (
         <LandingAnimation title={'My Details'} description={'test'}>
-            <div className="grid sm:grid-cols-3 gap-5">
+            <div className="grid sm:grid-cols-3 2xl:grid-cols-4 gap-5">
+
                 <div className='shadow-2xl h-screen w-full'>
 
                     <div className='relative h-screen '>
@@ -26,10 +27,9 @@ export default function Home() {
 
                 </div>
 
-
-                <div className='sm:col-span-2 w-full'>
+                <div className='sm:col-span-2 2xl:col-span-3 w-full'>
                     <div className='mt-4'>
-                        <p className='text-5xl font-bold'> about me </p>
+                        <p className='text-5xl font-bold font-poppins'> about me </p>
                         <div className='mt-5 flex gap-2'>
                             <div>
                                 <i className='text-sm text-green-500 font-bold mt-3'> 23 years </i> /
@@ -46,7 +46,7 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <div className="mt-4 text-sm text-gray-400 transform rotate-45">
+                    <div className="mt-4 text-sm text-gray-400 font-openSans">
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
                         Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
                         Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
