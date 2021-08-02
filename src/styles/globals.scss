@@ -27,3 +27,13 @@ a {
 .active-nav {
   @apply border-b-2 border-green-800 bg-gray-800
 }
+
+
+.background-img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  object-fit: cover;
+}

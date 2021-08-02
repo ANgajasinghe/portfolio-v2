@@ -1,6 +1,5 @@
 import {useRouter} from "next/router";
-import Link from "next/link";
-import {NavButton} from "../components/Button";
+import {NavButton} from "../components/buttons";
 
 
 export default function SideNav() {
@@ -13,15 +12,19 @@ export default function SideNav() {
 
             <div className="flex justify-center flex-wrap content-center cursor-pointer"  style={{height: '100%'}}>
                 <div>
-                    <Link href="/"  passHref={true}>
+
                       <NavButton
                           iconName="las la-user"
-                          isActive={router.pathname == "/"}
+                          href={'/'}
                           label="My Profile"/>
-                    </Link>
-                    <NavButton iconName="las la-phone"  label="Contact Me"/>
-                    <NavButton iconName="las la-briefcase"  label="Projects"/>
-                    <NavButton iconName="las la-glasses"  label="Testimonials"/>
+
+
+
+                      <NavButton iconName="las la-phone" href={'/project'} label="Contact Me"/>
+
+
+                    <NavButton iconName="las la-briefcase" href={'/'}  label="Projects"/>
+                    <NavButton iconName="las la-glasses" href={'/'}  label="Testimonials"/>
                 </div>
             </div>
 

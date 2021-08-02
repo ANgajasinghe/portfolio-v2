@@ -10,5 +10,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="uicons-regular-rounded" level="application" />
     <orderEntry type="library" name="line-awesome" level="application" />
+    <orderEntry type="library" name="bootstrap-grid" level="application" />
   </component>
 </module>
