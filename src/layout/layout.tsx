@@ -33,7 +33,7 @@ export default function Layout(props: any) {
                 </div>
                 <div className='w-full'>
                     <div>
-                       <main>{props.children}</main>
+                       <main className='container m-auto'>{props.children}</main>
                     </div>
                 </div>
             </div>
